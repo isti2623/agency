@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    }
+
+.top-banner{
+background-image: url("images/first-bg.png");
+background-repeat: no-repeat;
+background-size: 100%;
+margin-top: -20px;
+    }
+
+    .navbar ul{
+text-align: center;
+    }
+    .navbar ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 50px;
+    }
+
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .link-button{
+text-decoration: none;
+background-color: aqua;
+color: black;
+font-weight: 700;
+padding: 10px 40px;
+    }
+
+    .image-part{
+        display: flex;
+    }
+    .half-width{
+        width: 50%;
+        padding-left: 5%;
+    }
+    .half-width img{
+        width: 100%;
+    }
+
+    .about-banner{
+        background-image: url("images/four.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 100%;
+    }
+
+    .experience-item{
+        background-color: azure;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 30px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 40px gray;
+    }
